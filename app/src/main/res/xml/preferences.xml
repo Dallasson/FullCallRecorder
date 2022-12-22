@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <SwitchPreference
+        android:key="record_call"
+        android:title="Record Call"
+        android:summary="Call Recording Disabled"
+        android:icon="@drawable/ic_baseline_record_voice_over_24"
+        app:allowDividerAbove="true" />
+
+    <SwitchPreference
+        android:key="speaker"
+        android:title="Speaker Use"
+        android:summary="Put device on speak while recording a call"
+        android:icon="@drawable/ic_baseline_speaker_phone_24"
+        app:allowDividerAbove="true" />
+
+    <SwitchPreference
+        android:key="google_drive"
+        android:title="Google Drive Use"
+        android:summary="Put Syn on Google Drive"
+        android:icon="@drawable/ic_baseline_add_to_drive_24"
+        app:allowDividerAbove="true" />
+
+    <ListPreference
+        android:key="audio_source"
+        android:title="Audio Source For Recording"
+        android:summary=""
+        android:icon="@drawable/ic_baseline_audio_file_24"
+        android:entries="@array/recordValues"
+        app:allowDividerAbove="true"
+        android:entryValues="@array/recordEntriesValues"/>
+
+    <ListPreference
+        android:key="recording_format"
+        android:title="Recording Format"
+        android:summary=""
+        android:icon="@drawable/ic_baseline_format_overline_24"
+        android:entries="@array/recordValues"
+        app:allowDividerAbove="true"
+        android:entryValues="@array/recordEntriesValues"/>
+
+
+    <ListPreference
+        android:key="recording_mode"
+        android:title="Recording Mode"
+        android:summary=""
+        android:icon="@drawable/ic_baseline_auto_mode_24"
+        android:entries="@array/mode"
+        app:allowDividerAbove="true"
+        android:entryValues="@array/modeValues"/>
+
+    <ListPreference
+        android:key="theme"
+        android:title="Theme"
+        android:summary="Light"
+        android:icon="@drawable/ic_baseline_dark_mode_24"
+        android:entries="@array/theme"
+        app:allowDividerAbove="true"
+        android:entryValues="@array/themeEntries"/>
+</PreferenceScreen>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="statusBar">#3F51B5</color>
+    <color name="toolbar">#3F51B5</color>
+    <color name="icon">@color/white</color>
+</resources>

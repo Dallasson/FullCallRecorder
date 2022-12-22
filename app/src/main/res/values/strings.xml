@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">callRecorder</string>
+    <string name="permission_txt">Granting these permissions to the application will make all its function work properly and benefit from all features provided in the application .
+    </string>
+    <string name="openDrawer">Open Drawer</string>
+    <string name="closeDrawer">Close Drawer</string>
+    <string-array name="values">
+        <item>English</item>
+        <item>French</item>
+        <item>Spanish</item>
+    </string-array>
+
+    <string-array name="entriesValues">
+        <item>en-US</item>
+        <item>fr-FR</item>
+        <item>es-ES</item>
+    </string-array>
+
+    <string-array name="recordValues">
+        <item>Voice Call</item>
+        <item>Voice Recognition</item>
+        <item>Voice Communication</item>
+        <item>Microphone</item>
+    </string-array>
+
+    <string-array name="recordEntriesValues">
+        <item>call</item>
+        <item>recognition</item>
+        <item>communication</item>
+        <item>microphone</item>
+    </string-array>
+
+    /* ---------------------------------- */
+    <string-array name="theme">
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+
+    <string-array name="themeEntries">
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+
+    /* ------------------------------------ */
+    <string-array name="mode">
+        <item>Mono</item>
+        <item>Stereo</item>
+    </string-array>
+
+    <string-array name="modeValues">
+        <item>mono</item>
+        <item>stereo</item>
+    </string-array>
+
+    /* ----------------------------------- */
+    <string-array name="format">
+        <item>3GP</item>
+        <item>AAC</item>
+    </string-array>
+
+    <string-array name="formatEntries">
+        <item>3gp</item>
+        <item>aac</item>
+    </string-array>
+</resources>
